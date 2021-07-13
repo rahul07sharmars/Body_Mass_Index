@@ -7,7 +7,7 @@ const double bottomcontainerHeight = 80.0;
 const Color activecardcolor = Color(0xFF1D1E33);
 const Color inactivecardcolor = Color(0xFF111328);
 const bottomContainerColor = Color(0xFFEB1555);
-
+//next task is to build slider
 class InputPage extends StatefulWidget {
   @override
   _InputPageState createState() => _InputPageState();
