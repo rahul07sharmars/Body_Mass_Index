@@ -1,4 +1,6 @@
+import 'package:body_mass_index/constants.dart';
 import 'package:flutter/material.dart';
+
 
 
 class IconContent extends StatelessWidget {
@@ -19,11 +21,7 @@ class IconContent extends StatelessWidget {
         SizedBox(height: 16),
         Text(
           genderlabel,
-          style: TextStyle(
-            fontSize: 25,
-            fontWeight: FontWeight.w300,
-            color: Color(0xFF8D8E98),
-          ),
+          style: labelTextStyle,
         )
       ],
     );
