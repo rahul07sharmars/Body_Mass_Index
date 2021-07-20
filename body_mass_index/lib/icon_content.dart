@@ -21,7 +21,7 @@ class IconContent extends StatelessWidget {
         SizedBox(height: 16),
         Text(
           genderlabel,
-          style: labelTextStyle,
+          style: klabelTextStyle,
         )
       ],
     );
