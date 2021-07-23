@@ -1,0 +1,1 @@
+textAlign: TextAlign.center

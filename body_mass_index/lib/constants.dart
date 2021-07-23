@@ -6,7 +6,7 @@ const klabelTextStyle = TextStyle(
   color: Color(0xFF8D8E98),
 );
 
-const kNumberTextStyle = TextStyle(fontSize: 50, fontWeight: FontWeight.w800);
+const kNumberTextStyle = TextStyle(fontSize: 50,  fontWeight: FontWeight.w800, );
 
 const double kBottomContainerHeight = 80.0;
 const Color kActiveCardColor = Color(0xFF1D1E33);

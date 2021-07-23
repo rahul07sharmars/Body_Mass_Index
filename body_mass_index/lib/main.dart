@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'input_page.dart';
+import 'package:body_mass_index/screens/input_page.dart';
+
 void main() => runApp(BMICalculator());
 
 class BMICalculator extends StatelessWidget {
@@ -7,17 +8,13 @@ class BMICalculator extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: ThemeData.dark().copyWith(
-        
         primaryColor: Color(0xFF0A0D22),
         scaffoldBackgroundColor: Color(0xFF0A0D22),
         accentColor: Colors.purple,
         //textTheme: TextTheme(body1: TextStyle(color: Colors.white)),
         //accentColor: Colors.accents,
-    
       ),
       home: InputPage(),
     );
   }
 }
-
-
